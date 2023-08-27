@@ -86,7 +86,7 @@
 
  /*  styling course cards */
 
- .card {
+ .course__card {
      border: 1px solid #ccc;
      padding: 20px;
      margin: 10px;
@@ -95,32 +95,32 @@
  }
 
  /* Style for the card title */
- .card h2 {
+ .course__card h2 {
      font-size: 24px;
      margin-bottom: 10px;
  }
 
  /* Style for the date posted */
- .card .date {
+ .course__card .date {
      color: #888;
      font-size: 14px;
      margin-bottom: 10px;
  }
 
  /* Style for the description */
- .card p {
+ .course__card p {
      font-size: 16px;
      margin-bottom: 15px;
  }
 
  /* Style for categories and tags */
- .card .categories {
+ .course__card .categories {
      display: flex;
      flex-wrap: wrap;
      margin-bottom: 10px;
  }
 
- .card .category {
+ .course__card .category {
      background-color: #32936f;
      border: 1px solid #32936f;
      color: #fff;
@@ -201,3 +201,36 @@
 .top__mgn{
     margin-top: 30px;
 }
+
+
+    footer {
+        /* margin-top: 80px; */
+      background-color: #f0a500;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .footer-nav__container {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+    }
+    .list {
+      margin-right: 20px;
+    }
+    .nav-anc {
+      text-decoration: none;
+      color: #111;
+      transition: color 0.3s;
+    }
+    .nav-anc:hover {
+      color: #f0a500;
+    }
+    .admin-link {
+      /* text-transform: uppercase; */
+      /* font-weight: ; */
+      color: #32936f;
+    }
